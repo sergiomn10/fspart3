@@ -28,7 +28,13 @@ let notes = [
         id: 3,
         content: "GET and POST are the most important methods os HTTP protocol",
         important: true
+    },
+    {
+        id: 4,
+        content: "Second commit test",
+        important: true
     }
+    
 ]
 
 app.get('/', (request, response) => {
